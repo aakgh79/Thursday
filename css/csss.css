@@ -1,0 +1,55 @@
+/**.body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .header input[type="text"],
+        .header input[type="number"] {
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0 5px;
+            outline: none;
+            color: #333;
+            background-color: #ddd;
+        }
+        .header input[type="number"]::-webkit-inner-spin-button,
+        .header input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+        .sandwich-card {
+            background-color: #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+        }
+        .h2 {
+            margin: 0 0 10px;
+        }
+        .p {
+            margin: 0;
+        }**/
+
+.myform {
+    display: flex;
+  justify-content: center;
+}
