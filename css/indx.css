@@ -19,7 +19,6 @@
 
 }
 .menue{
-max-height: px;
 
 }
 .fad{
@@ -32,7 +31,13 @@ container{
  max-height: 20rem;
 }
 
-.pic{
-height: 2x20p;
+
+.veblist{
+background-color: #efefef;
+margin-bottom :20px;
+padding: 20px;
+border-radius: 20px;
+border:0.89px solid rgb(189, 40, 40);
+margin-trim:block;
 
 }
