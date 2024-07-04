@@ -1,28 +1,95 @@
-.logo{
-    height: 70px;;
+.logo {
+  height: 70px;
 }
 @font-face {
-    font-family: sahel;
-    src: url(../font/Sahel.woff2);
+  font-family: sahel;
+  src: url(../font/Sahel.woff2);
 }
 @font-face {
-    font-family: nasataliq ;
-    src: url(../font/NotoNastaliqUrdu-Regular.ttf);
+  font-family: nasataliq;
+  src: url(../font/NotoNastaliqUrdu-Regular.ttf);
 }
-@font-face{
-    font-family:hi;
-    src: url(../font/DeliusUnicase-Regular.ttf)
+@font-face {
+  font-family: hi;
+  src: url(../font/DeliusUnicase-Regular.ttf);
 }
 
-.header{
-    background-image: linear-gradient(69deg, rgb(240, 92, 24) 0%, rgb(240, 92, 24) 18%,rgb(239, 116, 49) 18%, rgb(239, 116, 49) 33%,rgb(238, 140, 73) 33%, rgb(238, 140, 73) 38%,rgb(237, 165, 98) 38%, rgb(237, 165, 98) 53%,rgb(235, 189, 122) 53%, rgb(235, 189, 122) 56%,rgb(234, 213, 147) 56%, rgb(234, 213, 147) 83%,rgb(233, 237, 171) 83%, rgb(233, 237, 171) 100%),linear-gradient(24deg, rgb(240, 92, 24) 0%, rgb(240, 92, 24) 18%,rgb(239, 116, 49) 18%, rgb(239, 116, 49) 33%,rgb(238, 140, 73) 33%, rgb(238, 140, 73) 38%,rgb(237, 165, 98) 38%, rgb(237, 165, 98) 53%,rgb(235, 189, 122) 53%, rgb(235, 189, 122) 56%,rgb(234, 213, 147) 56%, rgb(234, 213, 147) 83%,rgb(233, 237, 171) 83%, rgb(233, 237, 171) 100%),linear-gradient(67.5deg, rgb(240, 92, 24) 0%, rgb(240, 92, 24) 18%,rgb(239, 116, 49) 18%, rgb(239, 116, 49) 33%,rgb(238, 140, 73) 33%, rgb(238, 140, 73) 38%,rgb(237, 165, 98) 38%, rgb(237, 165, 98) 53%,rgb(235, 189, 122) 53%, rgb(235, 189, 122) 56%,rgb(234, 213, 147) 56%, rgb(234, 213, 147) 83%,rgb(233, 237, 171) 83%, rgb(233, 237, 171) 100%),linear-gradient(22.5deg, rgb(240, 92, 24) 0%, rgb(240, 92, 24) 18%,rgb(239, 116, 49) 18%, rgb(239, 116, 49) 33%,rgb(238, 140, 73) 33%, rgb(238, 140, 73) 38%,rgb(237, 165, 98) 38%, rgb(237, 165, 98) 53%,rgb(235, 189, 122) 53%, rgb(235, 189, 122) 56%,rgb(234, 213, 147) 56%, rgb(234, 213, 147) 83%,rgb(233, 237, 171) 83%, rgb(233, 237, 171) 100%),linear-gradient(114deg, rgb(243, 116, 163),rgb(252, 182, 229)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
-
+.header {
+  background-image: linear-gradient(
+      69deg,
+      rgb(240, 92, 24) 0%,
+      rgb(240, 92, 24) 18%,
+      rgb(239, 116, 49) 18%,
+      rgb(239, 116, 49) 33%,
+      rgb(238, 140, 73) 33%,
+      rgb(238, 140, 73) 38%,
+      rgb(237, 165, 98) 38%,
+      rgb(237, 165, 98) 53%,
+      rgb(235, 189, 122) 53%,
+      rgb(235, 189, 122) 56%,
+      rgb(234, 213, 147) 56%,
+      rgb(234, 213, 147) 83%,
+      rgb(233, 237, 171) 83%,
+      rgb(233, 237, 171) 100%
+    ),
+    linear-gradient(
+      24deg,
+      rgb(240, 92, 24) 0%,
+      rgb(240, 92, 24) 18%,
+      rgb(239, 116, 49) 18%,
+      rgb(239, 116, 49) 33%,
+      rgb(238, 140, 73) 33%,
+      rgb(238, 140, 73) 38%,
+      rgb(237, 165, 98) 38%,
+      rgb(237, 165, 98) 53%,
+      rgb(235, 189, 122) 53%,
+      rgb(235, 189, 122) 56%,
+      rgb(234, 213, 147) 56%,
+      rgb(234, 213, 147) 83%,
+      rgb(233, 237, 171) 83%,
+      rgb(233, 237, 171) 100%
+    ),
+    linear-gradient(
+      67.5deg,
+      rgb(240, 92, 24) 0%,
+      rgb(240, 92, 24) 18%,
+      rgb(239, 116, 49) 18%,
+      rgb(239, 116, 49) 33%,
+      rgb(238, 140, 73) 33%,
+      rgb(238, 140, 73) 38%,
+      rgb(237, 165, 98) 38%,
+      rgb(237, 165, 98) 53%,
+      rgb(235, 189, 122) 53%,
+      rgb(235, 189, 122) 56%,
+      rgb(234, 213, 147) 56%,
+      rgb(234, 213, 147) 83%,
+      rgb(233, 237, 171) 83%,
+      rgb(233, 237, 171) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgb(240, 92, 24) 0%,
+      rgb(240, 92, 24) 18%,
+      rgb(239, 116, 49) 18%,
+      rgb(239, 116, 49) 33%,
+      rgb(238, 140, 73) 33%,
+      rgb(238, 140, 73) 38%,
+      rgb(237, 165, 98) 38%,
+      rgb(237, 165, 98) 53%,
+      rgb(235, 189, 122) 53%,
+      rgb(235, 189, 122) 56%,
+      rgb(234, 213, 147) 56%,
+      rgb(234, 213, 147) 83%,
+      rgb(233, 237, 171) 83%,
+      rgb(233, 237, 171) 100%
+    ),
+    linear-gradient(114deg, rgb(243, 116, 163), rgb(252, 182, 229));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
 }
-.menue{
-
+.menue {
 }
-.fad{
-    height: 20 0 auto;
+.fad {
+  height: 20 0 auto;
 }
 
 /*.carousel-indicators > .item > img { width:40%; height:40px; }
@@ -31,22 +98,40 @@ container{
  max-height: 5rem;
 }*/
 
-
 .veblist {
-background-color: #efefef;
-margin-bottom :20px;
-padding: 20px;
-border-radius: 20px;
-border:0.89px solid rgb(189, 40, 40);
-margin-trim:block;
+  background-color: #efefef;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 0.89px solid rgb(189, 40, 40);
+  margin-trim: block;
 }
 
-.card-1{
-    margin-top: 5rem;
-    margin-right: 15px;
+.card-1 {
+  margin-top: 5rem;
+  margin-right: 15px;
 }
-.card-2{
-    margin-top: 5rem;
-    margin-right: 30 px;
+.card-2 {
+  margin-top: 5rem;
+  margin-right: 30 px;
+}
+.carousel {
+  border-radius: 30%;
 }
 
+@keyframes seen {
+  100%{
+    transform:rotateZ(60deg)
+    translate(1em,-9em);
+  }
+}
+.i{
+  animation: seen;
+  animation-duration: 4s;
+}
+carousel-inner{
+width: 70%;
+height: auto;
+aspect-ratio: 16/12;
+object-fit: cover;
+}
